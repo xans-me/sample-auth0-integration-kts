@@ -1,0 +1,11 @@
+
+auth0:
+  audience: https://
+spring:
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: https://dev-
+server:
+  port: 3010
