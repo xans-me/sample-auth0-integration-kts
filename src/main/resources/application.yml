@@ -1,11 +1,11 @@
 
 auth0:
-  audience: https://
+  audience: https://geniuxan/api/v2/
 spring:
   security:
     oauth2:
       resource-server:
         jwt:
-          issuer-uri: https://dev-
+          issuer-uri: https://dev-2nknjl0jhqtsn8ms.us.auth0.com/
 server:
   port: 3010

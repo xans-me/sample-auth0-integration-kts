@@ -32,6 +32,7 @@ class SecurityConfig {
                 auth
                     .requestMatchers("/api/public").permitAll()
                     .requestMatchers("/api/private").authenticated()
+
                     // TODO : Still problem with scope authority
                     .requestMatchers("/api/private-scoped").hasAuthority("SCOPE_read:messages")
             }
